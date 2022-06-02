@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Destination | Saha Travels</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--LINKS-->
+        <!--Font Awesome CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--Our chosen font-->
+        <link rel = "stylesheet" href = "Font/ChosenFonts.css">
+
+        <!--Custom web format-->
+        <link rel = "stylesheet" href = "CSS/Defaultization.css">
+
+        <!--Custom used CSS-->
+        <link rel = "stylesheet" href = "CSS/Utility.css">
+        <link rel = "stylesheet" href = "CSS/SSnR.css">
+
+        <!--Website Icon-->
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+
+    </head>
+    <body>
+
+        <!--Navbar part-->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Saha<span>Travels</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "destination.html" class = "nav-link">Destination</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "partners.html" class = "nav-link">Partners</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Header part-->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Destination</h1>
+                    <p>A gallery that consists of places that you must visit while you stay in UAE, do not leave a single stone unturned.</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Destination section -->
+        <div id = "destination" class = "py-4">
+            <div class = "container">
+                <div class = "destination-row">
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des1.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des2.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des3.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des4.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des5.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des6.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des7.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des8.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "destination-item shadow">
+                        <img src = "Images/des9.jpg" alt = "">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Images modal -->
+        <div id = "img-modal-box">
+            <div id = "img-modal">
+                <button type = "button" id = "modal-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <button type = "button" id = "prev-btn" class = "flex">
+                    <i class = "fas fa-chevron-left"></i>
+                </button>
+                <button type = "button" id = "next-btn" class = "flex">
+                    <i class = "fas fa-chevron-right"></i>
+                </button>
+                <img src = "Images/des1.jpg">
+            </div>
+        </div>
+
+        <!-- Tourist spots part -->
+        <section id = "t-spots" class = "py-4">
+            <div class = "title-wrap">
+                <span class = "sm-title">have a glimpse of UAE </span>
+                <h2 class = "lg-title">Tourist Spots</h2>
+            </div>
+
+            <div class = "t-spots-row">
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-1.jpg" alt = "">
+                    <div>
+                        <span>Sheikh Zayed Grand Mosque, Abu Dhabi</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;1,232 reviews</li>
+                        </ul>
+                        <p class = "text">A mosque that can be visited by non-Muslims.</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-2.jpg" alt = "">
+                    <div>
+                        <span>Desert Safari, Sharjah</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;839 reviews</li>
+                        </ul>
+                        <p class = "text">An amazing experience that is a must for everyone. Invite your family!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-3.jpg" alt = "">
+                    <div>
+                        <span>La Perle, Dubai</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;1,764 reviews</li>
+                        </ul>
+                        <p class = "text">The performance inside the theater is astonishing. No room for complaints!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-4.jpg" alt = "">
+                    <div>
+                        <span>Jebel Hafeet, Al Ain</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;899 reviews</li>
+                        </ul>
+                        <p class = "text">When you reach the most peak of the mountain, it feels great!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-5.jpg" alt = "">
+                    <div>
+                        <span>Downtown, Dubai</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;660 reviews</li>
+                        </ul>
+                        <p class = "text">The most busiest area when it is night especially weekends.</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-6.jpg" alt = "">
+                    <div>
+                        <span>Iceland Waterpark, Ras Al Khaimah</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;409 reviews</li>
+                        </ul>
+                        <p class = "text">A great waterpark, fun for family and friends. 99.9% recommendation!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-7.jpg" alt = "">
+                    <div>
+                        <span>Center of Antiquities, Umm Al Quwain</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;243 reviews</li>
+                        </ul>
+                        <p class = "text">A free entrance museum with historical artefacts. Very interesting!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-8.jpg" alt = "">
+                    <div>
+                        <span>Etisalat Tower, Ajman</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;1,867 reviews</li>
+                        </ul>
+                        <p class = "text">The internet connects people together. Fascinating!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-9.jpg" alt = "">
+                    <div>
+                        <span>Al Aqah, Fujairah</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;231 reviews</li>
+                        </ul> 
+                        <p class = "text">Scuba diving is perfect for a holiday trip. Very satisfied!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-10.jpg" alt = "">
+                    <div>
+                        <span>Expo 2020, Dubai</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;2,020 reviews</li>
+                        </ul> 
+                        <p class = "text">You must never miss this beautiful place. Visit at all cost!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-11.jpg" alt = "">
+                    <div>
+                        <span>Warner Bros. World, Abu Dhabi</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;2,736 reviews</li>
+                        </ul> 
+                        <p class = "text">This place features my favorite iconic characters!!!</p>
+                    </div>
+                </div>
+
+                <div class = "t-spots-item shadow">
+                    <img src = "Images/t-spots-12.jpg" alt = "">
+                    <div>
+                        <span>Al Majaz Waterfront, Sharjah</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;788 reviews</li>
+                        </ul> 
+                        <p class = "text">Well organized, well developed, good for everyone, family with kids can enjoy.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+
+        <!--Footer part-->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Saha<span>Travels</span>
+                    </a>
+                    <p class = "text">A virtual tourism website tour that gives you an idea on where to travel in United Arab Emirates</p>
+                    <p class = "text">&copy; 2022— <b>Sahazad Inc</b>. All Rights Reserved.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>The 7 Emirates</h2>
+                    <ul>
+                        <li><a href = "#">Dubai</a></li>
+                        <li><a href = "#">Abu Dhabi</a></li>
+                        <li><a href = "#">Sharjah</a></li>
+                        <li><a href = "#">Ajman</a></li>
+                        <li><a href = "#">Ras Al Khaimah</a></li>
+                        <li><a href = "#">Umm Al Quwain</a></li>
+                        <li><a href = "#">Fujairah</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <!--JavaScript -->
+        <script src = "JS/Scripting.js"></script>
+        <script>
+            // Images modal
+            const allDestinationItem = document.querySelectorAll('.destination-item');
+            const imgModalDiv = document.getElementById('img-modal-box');
+            const modalCloseBtn = document.getElementById('modal-close-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const prevBtn = document.getElementById('prev-btn');
+            let imgIndex = 0;
+
+            allDestinationItem.forEach((destinationItem) => {
+                destinationItem.addEventListener('click', () => {
+                    imgModalDiv.style.display = "block";
+                    let imgSrc = destinationItem.querySelector('img').src;
+                    imgIndex = parseInt(imgSrc.split("-")[1].substring(0, 1));
+                    showImageContent(imgIndex);
+                })
+            });
+
+            // Next and previous click
+            nextBtn.addEventListener('click', () => {
+                imgIndex++;
+                if(imgIndex > allDestinationItem.length){
+                    imgIndex = 1;
+                }
+                showImageContent(imgIndex);
+            });
+
+            prevBtn.addEventListener('click', () => {
+                imgIndex--;
+                if(imgIndex <= 0){
+                    imgIndex = allDestinationItem.length;
+                }
+                showImageContent(imgIndex);
+            });
+
+            function showImageContent(index){
+                imgModalDiv.querySelector('#img-modal img').src = `Images/des${index}.jpg`;
+            }
+
+            modalCloseBtn.addEventListener('click', () => {
+                imgModalDiv.style.display = "none";
+            })
+        </script>
+    </body>
+</html>
